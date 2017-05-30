@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "716818566574",
+    "firebase_url": "https://demohbb.firebaseio.com",
+    "project_id": "demohbb",
+    "storage_bucket": "demohbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716818566574:android:2574382a9e4b583f",
+        "android_client_info": {
+          "package_name": "com.example.me.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716818566574-34ag9f2nbr7f7tlou9e96uqehu8iukgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAlRKm_iSprZN4G0dmerOOL4gogl7RN8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

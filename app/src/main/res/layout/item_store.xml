@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:padding="2dip" >
+
+            <ImageView
+                android:id="@+id/imgHinhstore"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/abc" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNameStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Tên món ăn"
+            android:textColor="#040404"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:layout_below="@+id/tvNameStore"
+            android:text="Giá" />
+
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Số lượng"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:layout_below="@+id/tvGia"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
